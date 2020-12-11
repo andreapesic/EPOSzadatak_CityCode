@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>City Code</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <div class="logo"><img src="images/logo.png" alt="logo"><a href="index.html">City Code</a></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <ul class="mainMenu">
+            
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="oNama.html">O Nama</a></li>
+            <li><a href="#">Usluge</a>
+                <ul>
+                    <li><a href="saunaDjakuzi.html">Sauna i Đakuzi</a></li>
+                    <li><a href="masaza.html">Masaže</a></li>
+                    <li><a href="slanaSoba.html">Slana soba</a></li>
+                </ul>
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <!-- Kontakt Section -->
+
+    <div class="kontakt">
+        <div class="slider">
+            <div class="first-row">
+                <div class="info">
+                    <p><span>City Code Spa</span><br><br>
+                        Slavonska 18, Zemun<br><br>
+                        <span>Telefon za rezervacije</span><br><br>
+                        011/3162925<br>
+                        +381113162925<br><br>
+                        <span>Radno vreme</span><br><br>
+                        od 15h do 21h</p>
+                    <div class="icons">
+                    <a href="https://www.instagram.com/citycodespa/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/citycodespazemun/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.5319817600603!2d20.392162715049473!3d44.85146378214007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a65ca1895c6c1%3A0x8a49253f963c5c54!2sCity%20Code%20Spa!5e0!3m2!1sen!2srs!4v1607332737526!5m2!1sen!2srs" width="400" height="450" framebroder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="form-1">
+                    <form>
+                        <h1>Kontaktirajte nas</h1>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="poruka">Poruka:</label><br>
+                        <textarea id="poruka" name="poruka" rows="10"></textarea><br><br>
+                        <input class="button" type="submit" id="kontaktButton" value="Pošalji">
+                    </form>
+                </div>
+                <div class="form-2">
+                    <form>
+                        <h1>Ocenite nas</h1>
+                        <div class="ocena">
+                            <select name="ocena" id="ocena">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <input class="button button-oceni" type="submit" id="oceniButton" value="Oceni">
+                        </div><br>
+                        <label for="misljenje">Vase misljenje nam je vazno:</label><br>
+                        <textarea id="misljenje" name="misljenje" rows="10"></textarea><br><br>
+                        <input class="button" type="submit" id="vaseMisljenjeButton" value="Pošalji">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyright &copy; City Code 2020</p>
+            <p class="date"></p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

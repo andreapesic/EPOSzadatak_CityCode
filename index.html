@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>City Code</title>
+    <link  rel="stylesheet" href="css/lightslider.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+
+    <header>
+        <div class="logo"><img src="images/logo.png" alt="logo"><a href="#">City Code</a></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <ul class="mainMenu">
+        
+            <li><a href="#">Početna</a></li>
+            <li><a href="oNama.html">O Nama</a></li>
+            <li><a href="#">Usluge</a>
+                <ul>
+                    <li><a href="saunaDjakuzi.html">Sauna i Đakuzi</a></li>
+                    <li><a href="masaza.html">Masaže</a></li>
+                    <li><a href="slanaSoba.html">Slana soba</a></li>
+                </ul>
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <!-- Home Section -->
+
+    <div class="home">
+        <div class="slider">
+            <h1 class="title">Dobrodošli u SPA CENTER <span>City Code</span> </h1>
+            <ul id="lightSlider">
+                <li>
+                    <img src="images/slika1.jpg" alt="Slika 1">
+                </li>
+                <li>
+                    <img src="images/slika2.jpg" alt="Slika 2">
+                </li>
+                <li>
+                    <img src="images/slika4.jpg" alt="Slika 4">
+                </li>
+                <li>
+                    <img src="images/slika5.jpg" alt="Slika 5">
+                </li>
+                <li>
+                    <img src="images/slika6.jpg" alt="Slika 6">
+                </li>
+                <li>
+                    <img src="images/slika7.jpg" alt="Slika 7">
+                </li>
+            </ul>
+            <h1 class="slogan">Opustite se i uživajte! Jer Vi to zaslužujete!</h1>
+            <p>City Code je novootvoreni sportski i wellness centar smešten u srcu Zemuna. Centar ima sopstveni parking
+                koji obezbeđuje 40 parking mesta i obuhvata 2000m2 zatvorenog prostora luksuzno opremljenog u modernom
+                stilu, namenjenog svima koji vode računa o svom izgledu i zdravlju, redovno vežbaju i bave se sportom,
+                ali i onima koji više vole da opuste svoje telo.
+                SPA deo sadrži bazen, parno kupatilo, suvu saunu kao i sobu za masažu i slanu sobu gde se korisnici
+                potpuno mogu opustiti. Korisnicima je obezbeđen kompletan set za korišćenje bazena koji sadrži bade
+                mantil, peškire, papuče, kecelju za saune i masažu, kao i kompletan set za higijenu - šampone, kreme...
+                Poseban akcenat smo stavili na privatnost korisnika, pa je cela SPA zona centra uradjena bez video
+                nadzora.
+                U sklopu centra se nalazi i kafić u kojem se gosti mogu osvežiti i odmoriti. Postoji i mogućnost
+                poručivanja iz SPA dela gde će ih naše ljubazno osoblje kafića uslužiti kako bi pored bazena mogli
+                dodatno da uživaju.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyright &copy; City Code 2020</p>
+           <p class="date" id="datum1"></p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/lightslider.js"></script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#lightSlider").lightSlider();
+        });
+    </script>
+
+
+</body>
+
+</html>
